@@ -3,163 +3,205 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biskitz | 讓品牌成長更直接</title>
+    <title>比思吉國際企業有限公司 | 行動應用程式開發與客戶支援</title>
     <meta
       name="description"
-      content="Biskitz 以策略、設計與數位體驗協助品牌建立可信任的線上存在，打造能真正帶來商業成果的公司官網。"
+      content="比思吉國際企業有限公司（BISKITZ INTERNATIONAL CO., LTD.）提供行動應用程式開發與維運、客戶支援服務，並公開完整公司資訊以利合作夥伴與平台驗證查核。"
     />
+    <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Biskitz | 讓品牌成長更直接"
+      content="比思吉國際企業有限公司 | 行動應用程式開發與客戶支援"
     />
     <meta
       property="og:description"
-      content="以策略、設計與數位體驗協助品牌建立可信任的線上存在。"
+      content="公開法定公司資訊、聯絡方式與服務內容，提供合作夥伴與開發者平台查核所需的可信任企業網站。"
     />
-    <meta property="og:type" content="website" />
-    <meta name="theme-color" content="#f4b740" />
+    <meta property="og:url" content="https://biskitz.com/" />
+    <meta name="theme-color" content="#183153" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "比思吉國際企業有限公司",
+        "alternateName": "BISKITZ INTERNATIONAL CO., LTD.",
+        "url": "https://biskitz.com/",
+        "email": "support@biskitz.com",
+        "telephone": "+886966950126",
+        "foundingDate": "2026-03-13",
+        "address": {
+          "@type": "PostalAddress",
+          "postalCode": "700",
+          "addressCountry": "TW",
+          "addressRegion": "臺南市",
+          "addressLocality": "中西區",
+          "streetAddress": "民生路一段167號3樓"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "support@biskitz.com",
+            "telephone": "+886966950126",
+            "availableLanguage": ["zh-TW", "en"]
+          },
+          {
+            "@type": "ContactPoint",
+            "contactType": "business inquiries",
+            "email": "service@biskitz.com",
+            "telephone": "+886966950126",
+            "availableLanguage": ["zh-TW", "en"]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <div class="page-shell">
-      <header class="topbar">
-        <a class="brand" href="#hero" aria-label="Biskitz 首頁">
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="/">
           <span class="brand-mark">B</span>
-          <span class="brand-text">Biskitz</span>
+          <span>
+            <strong>比思吉國際企業有限公司</strong>
+            <small>BISKITZ INTERNATIONAL CO., LTD.</small>
+          </span>
         </a>
-        <nav class="nav">
-          <a href="#services">服務</a>
-          <a href="#process">流程</a>
-          <a href="#about">關於</a>
-          <a href="#contact">聯絡</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav class="site-nav" id="site-nav">
+          <a href="/">首頁</a>
+          <a href="/company/">公司資訊</a>
+          <a href="/about/">關於我們</a>
+          <a href="/contact/">聯絡我們</a>
+          <a href="/legal/privacy/">隱私權政策</a>
+          <a href="/legal/terms/">服務條款</a>
         </nav>
       </header>
 
       <main>
-        <section class="hero" id="hero">
-          <div class="hero-copy">
-            <p class="eyebrow">Company Website for Cloudflare Pages</p>
-            <h1>把第一印象做對，讓公司網站真的能替你成交。</h1>
+        <section class="hero">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Corporate Website</p>
+            <h1>專注於行動應用程式開發與客戶支援的正式企業網站。</h1>
             <p class="lead">
-              Biskitz 專注於將品牌訊息、設計語言與產品價值整理成清楚、可信任、可轉換的官網體驗。
+              比思吉國際企業有限公司提供行動應用程式開發與維運、客戶支援服務，並以清楚、可查證的公司資訊對外建立合作與平台審核所需的可信度。
             </p>
             <div class="hero-actions">
-              <a class="button primary" href="#contact">預約諮詢</a>
-              <a class="button secondary" href="#services">查看服務</a>
+              <a class="button primary" href="/company/">查看公司資訊</a>
+              <a class="button secondary" href="/contact/">聯絡我們</a>
             </div>
           </div>
-          <div class="hero-card">
-            <p class="card-label">核心能力</p>
-            <ul class="signal-list">
-              <li>品牌定位與內容架構</li>
-              <li>高質感網站視覺設計</li>
-              <li>Cloudflare 全球加速與部署</li>
-              <li>GitHub 版本管理與持續更新</li>
-            </ul>
-          </div>
+          <aside class="hero-panel reveal">
+            <p class="panel-kicker">Verification Ready</p>
+            <dl class="info-list compact">
+              <div>
+                <dt>法定名稱</dt>
+                <dd>比思吉國際企業有限公司</dd>
+              </div>
+              <div>
+                <dt>English Name</dt>
+                <dd>BISKITZ INTERNATIONAL CO., LTD.</dd>
+              </div>
+              <div>
+                <dt>統一編號</dt>
+                <dd>60322178</dd>
+              </div>
+              <div>
+                <dt>成立日期</dt>
+                <dd>2026/03/13</dd>
+              </div>
+            </dl>
+          </aside>
         </section>
 
-        <section class="metrics">
-          <article>
-            <strong>24/7</strong>
-            <span>Cloudflare 全球節點加速</span>
-          </article>
-          <article>
-            <strong>SEO</strong>
-            <span>語意化結構與基礎最佳化</span>
-          </article>
-          <article>
-            <strong>Fast</strong>
-            <span>靜態頁面，部署簡單且維護成本低</span>
-          </article>
-        </section>
-
-        <section class="section" id="services">
-          <div class="section-heading">
+        <section class="section">
+          <div class="section-heading reveal">
             <p class="eyebrow">Services</p>
-            <h2>適合企業起步、品牌更新與商業展示的官網方案</h2>
+            <h2>以穩定交付與清楚溝通為核心的服務內容</h2>
           </div>
-          <div class="service-grid">
-            <article class="panel">
-              <h3>品牌首頁</h3>
-              <p>用清楚的主張、視覺焦點與 CTA，讓訪客一眼理解你的價值。</p>
+          <div class="card-grid three">
+            <article class="card reveal">
+              <h3>行動應用程式開發</h3>
+              <p>協助企業規劃、設計與實作行動應用產品，依需求提供新建置與既有系統整合。</p>
             </article>
-            <article class="panel">
-              <h3>服務展示</h3>
-              <p>將抽象服務整理成可讀、可比較、可被信任的內容區塊。</p>
+            <article class="card reveal">
+              <h3>應用程式維運</h3>
+              <p>提供版本更新、錯誤修正、功能迭代與日常維護，確保服務可用性與持續運行。</p>
             </article>
-            <article class="panel">
-              <h3>聯絡轉換</h3>
-              <p>提供明確聯絡方式與行動引導，把流量轉成商機。</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section process-section" id="process">
-          <div class="section-heading">
-            <p class="eyebrow">Process</p>
-            <h2>從內容到上線，流程保持俐落</h2>
-          </div>
-          <div class="timeline">
-            <article class="timeline-item">
-              <span>01</span>
-              <div>
-                <h3>整理訊息</h3>
-                <p>釐清品牌定位、服務內容、受眾與主要轉換目標。</p>
-              </div>
-            </article>
-            <article class="timeline-item">
-              <span>02</span>
-              <div>
-                <h3>建立頁面</h3>
-                <p>完成首頁文案、視覺風格與前端實作，保持載入速度與可維護性。</p>
-              </div>
-            </article>
-            <article class="timeline-item">
-              <span>03</span>
-              <div>
-                <h3>部署上線</h3>
-                <p>透過 GitHub 與 Cloudflare Pages 串接，建立穩定的上線流程。</p>
-              </div>
+            <article class="card reveal">
+              <h3>客戶支援服務</h3>
+              <p>建立對外聯絡窗口與服務回應流程，支援合作夥伴、客戶與平台所需的溝通協作。</p>
             </article>
           </div>
         </section>
 
-        <section class="section about-section" id="about">
-          <div class="section-heading">
-            <p class="eyebrow">About</p>
-            <h2>網站不只是門面，也是你的業務前台</h2>
+        <section class="section feature-band reveal">
+          <div>
+            <p class="eyebrow">Why This Site Exists</p>
+            <h2>這不只是品牌首頁，也是正式公司資訊入口。</h2>
           </div>
-          <div class="about-layout">
-            <p>
-              這個版本先以單頁式企業官網作為基礎，優先把品牌、服務與聯絡資訊講清楚，讓你可以先快速部署到
-              Cloudflare，再持續往案例頁、部落格或多語系擴充。
-            </p>
-            <aside class="quote-card">
-              <p>「先上線、先驗證，再逐步擴充。」</p>
-            </aside>
-          </div>
+          <p>
+            本網站公開法定公司名稱、公司登記號、聯絡方式、登記地址、服務內容與政策頁面，作為客戶、合作夥伴以及 Google 與 Apple 開發者帳號驗證流程可交叉核對的資訊來源。
+          </p>
         </section>
 
-        <section class="section contact-section" id="contact">
-          <div class="section-heading">
-            <p class="eyebrow">Contact</p>
-            <h2>準備好把公司官網正式上線</h2>
+        <section class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Company Snapshot</p>
+            <h2>公司基本資料一覽</h2>
           </div>
-          <div class="contact-card">
-            <p>你可以先把這個版本作為公司官網基礎，再替換成你的實際品牌內容、Email 與社群連結。</p>
-            <a class="button primary" href="mailto:hello@biskitz.com">hello@biskitz.com</a>
+          <div class="card-grid two">
+            <article class="card reveal">
+              <h3>法定與公開資訊</h3>
+              <ul class="bullet-list">
+                <li>公司法定名稱（中文）：比思吉國際企業有限公司</li>
+                <li>公司法定名稱（英文）：BISKITZ INTERNATIONAL CO., LTD.</li>
+                <li>統一編號：60322178</li>
+                <li>公司登記地址：(700) 臺南市中西區民生路一段167號3樓</li>
+              </ul>
+            </article>
+            <article class="card reveal">
+              <h3>聯絡與服務</h3>
+              <ul class="bullet-list">
+                <li>聯絡電話：+886966950126</li>
+                <li>客服信箱：support@biskitz.com</li>
+                <li>一般聯絡信箱：service@biskitz.com</li>
+                <li>主要服務：行動應用程式開發與維運、客戶支援服務</li>
+              </ul>
+            </article>
           </div>
         </section>
       </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>比思吉國際企業有限公司</strong>
+          <p>BISKITZ INTERNATIONAL CO., LTD.</p>
+        </div>
+        <div class="footer-meta">
+          <span>統一編號：60322178</span>
+          <span>公司成立：2026/03/13</span>
+          <span>地址：(700) 臺南市中西區民生路一段167號3樓</span>
+          <span>電話：+886966950126</span>
+          <span>客服信箱：support@biskitz.com</span>
+        </div>
+        <div class="footer-links">
+          <a href="/company/">公司資訊</a>
+          <a href="/contact/">聯絡我們</a>
+          <a href="/legal/privacy/">隱私權政策</a>
+          <a href="/legal/terms/">服務條款</a>
+        </div>
+      </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
