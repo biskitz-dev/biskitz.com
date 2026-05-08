@@ -15,7 +15,6 @@ const entriesToCopy = [
   "company",
   "about",
   "contact",
-  "legal",
 ];
 
 if (existsSync(distDir)) {
